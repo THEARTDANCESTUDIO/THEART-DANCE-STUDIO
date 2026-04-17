@@ -9,9 +9,9 @@ const Navbar: React.FC = () => {
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
 
-  const HOME_LINK = "https://theartdancestudio1120.netlify.app";
+  const HOME_LINK = "https://theartdancestudio.com/";
   const DANCERS_LINK = "https://theart-dancer.netlify.app";
-  const CLASSES_LINK = "https://illustrious-pegasus-596112.netlify.app";
+  const CLASSES_LINK = "https://theart-schedule.netlify.app";
 
   useEffect(() => {
     const handleScroll = () => {
